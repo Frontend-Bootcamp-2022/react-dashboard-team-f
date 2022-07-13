@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    background: #FFFFFF;
+    color: black;
+    height: 1000px;
+    width: 315px;
+    border:1px solid black;
+
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+    margin-bottom: 50px;
+}
+.logo{
+    font-size: 20px;
+    height: 23px;
+    width: 79px;
+    left: 150px;
+    top: 47px;
+   /* border-radius: nullpx;*/
+
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 100px;
+}
+.link{
+    display: flex;
+    color:#717986;
+    padding: 10px 15px;
+    gap:30px;
+    transition: all 0.5s;
+    height: 19px;
+    width: 78px;
+    left: 84px;
+    top: 133px;
+
+}
+.link:hover{
+    border-bottom: 5px solid mediumorchid;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: all 0.5s;
+    height: 40px;
+    width: 250px;
+    left: 20px;
+    top: 173px;
+
+    
+}
+.log_link{
+    display: flex;
+    color:#717986;
+    padding: 10px 15px;
+    gap:30px;
+    height: 19px;
+    width: 78px;
+    left: 84px;
+    margin-top: 450px;
+    font-size: 20px;
+}
+.log_link:hover{
+    border-bottom: 5px solid mediumorchid;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: all 0.5s;
+    height: 40px;
+    width: 250px;
+    left: 20px;
+    
+}
+.icon:hover{
+    color:mediumorchid
+}
+.log_icon:hover{
+    color:mediumorchid
+}
+.active{
+    color: #00DB99;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+.logo_image1{
+    width:20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border:5px solid #0075FF;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    margin-right: 56px;
+    margin-bottom: 58px;  
+}
+
+.logo_image2{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border:5px solid #1BE3A7;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    margin-right:20px;
+    margin-bottom: 12px;
+    margin-left:15px
+}
+
+
