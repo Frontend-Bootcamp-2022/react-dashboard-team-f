@@ -1,0 +1,21 @@
+.header {  display: flex; flex-direction: column; gap: 10px; margin-left: 50px;}
+.header-container { display: flex; justify-content: space-between; align-items: center; background-color: #fff; padding: 0px 10px; font-family: "arial";}
+.header-container .header-logo { font-size: 24px; font-weight: 700; color: #3c717a;}
+.header-container .header-search { position: relative; width: 25%; height: 25px; display: flex; gap: 5px; align-items: center; background-color: #f1f2f7; border-radius: 8px; border: none; padding: 6px 12px; transition: all 0.4s;}
+.header-container .header-search:hover { background-color: #959595;}
+.header-container .header-search .search-input {background-color: #f1f2f7;border: none;outline: none;transition: all 0.4s;}
+.header-container .header-search:hover .search-input { background-color: #959595; color: #6f7177;}
+.header-container .header-search .search-icon{ opacity: 0.5; color: #6f7177; font-size: 21px; transition: all 0.4s;}
+.header-container .header-search:hover .search-icon{color: #f1f2f7;}
+.header-container .header-right { display: flex; gap: 60px;}
+.header-container .header-right .button-container {display: flex; gap: 35px; align-items: center;}
+.header-container .header-right .button-container span.icons { background-color: inherit; border: none; cursor: pointer;}
+.header-container .header-right .button-container .messag-icon,
+.header-container .header-right .button-container .bell-icon,
+.header-container .header-right .button-container .gear-icon{opacity: 0.3; font-size: 21px;}
+.header-container .header-right .user-information { display: flex;  gap: 20px; align-items: center;}
+.header-container .header-right .user-information .profile-image {max-width: 50px; border-radius: 50%;}
+.header-container .header-right .user-information .user-info { display: flex; flex-direction: column;}
+.header-container .header-right .user-information .user-name { font-size: 16px; font-weight: 500;}
+.header-container .header-right .user-information .user-email { font-size: 12px; color: #8b8b8b;}
+
