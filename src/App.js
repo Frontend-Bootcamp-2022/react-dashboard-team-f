@@ -1,6 +1,10 @@
+import Card from "./component/Card"
+
 const App = () => {
   return (
-    <h1>React Dashboard</h1>
+    <>
+      <Card />
+    </>
   );
 }
 
